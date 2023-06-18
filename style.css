@@ -28,22 +28,18 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: var(--Dark-cyan);
-  background-color: #19a2ae;
-  background-image: url(/images/bg-pattern-top.svg),
-    url(/images/bg-pattern-bottom.svg);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
   background-position: right 50vw bottom 40vh, left 40vw top 45vh;
   background-repeat: no-repeat, no-repeat;
-  display: grid;
   place-items: center;
-  min-height: 100vh;
   text-align: center;
   transition: all 0.5s ease-in-out;
 }
